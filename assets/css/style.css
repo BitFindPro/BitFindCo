@@ -156,10 +156,17 @@ html {
 }
 
 body {
-  background-color: var(--eerie-black-2);
+  background-color: transparent;
   color: var(--cadet-blue-crayola);
   font-size: 1.6rem;
   line-height: 1.4;
+  background:transparent;
+
+  background-image: url('https://media.giphy.com/media/fyad3Zy4KPso5IzcL9/giphy.gif?cid=ecf05e47xt6mcjc4euybna5fo72bmn2il19bjf9esq5jjcdw&ep=v1_gifs_search&rid=giphy.gif&ct=g'); /* Ganti 'background.gif' dengan nama file gambar bergerak Anda */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  animation: animateBackground 60s linear infinite
 }
 
 body.active {
@@ -360,7 +367,7 @@ body.active {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: var(--eerie-black-1);
+  background-color: transparent;
   padding-block: 15px;
   z-index: 4;
   gap: 50px;
@@ -383,7 +390,7 @@ body.active {
 
   100% {
     transform: translateY(84%);
-    background-color: var(--eerie-black-2);
+    background-color: var(--blue-crayola_10);
   }
 }
 
@@ -800,7 +807,7 @@ body.active {
 \*-----------------------------------*/
 
 .about {
-  background-color: var(--eerie-black-1);
+  background-color: transparent;
 }
 
 .about-banner {
@@ -849,7 +856,7 @@ body.active {
 \*-----------------------------------*/
 
 .footer-top {
-  background-color: var(--eerie-black-1);
+  background-color: transparent;
   padding-block: 80px 50px;
 }
 
@@ -864,7 +871,7 @@ body.active {
 
 .footer-title {
   color: var(--white);
-  font-size: var(--fs-3);
+  font-size: var(--fs-5);
   margin-block: 25px 20px;
 }
 
@@ -902,7 +909,7 @@ address.footer-contact-link {
 }
 
 .footer-bottom {
-  background-color: var(--eerie-black-2);
+  background-color: var(--blue-crayola_10);
   padding-block: 20px;
 }
 
@@ -913,7 +920,7 @@ address.footer-contact-link {
 
 .copyright-link {
   display: inline-block;
-  color: var(--blue-crayola);
+  color: #ffdf00;
 }
 
 .social-list {
