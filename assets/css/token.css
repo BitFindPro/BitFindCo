@@ -310,7 +310,7 @@ ul.skills li.sk-res {
 }
 
 ul.skills li.sk-pro {
-  --per: 20;
+  --per: 10;
 }
 ul.skills li.sk-ado {
   --per: 60;
@@ -334,8 +334,8 @@ ul.skills li.sk-dev {
 ul.skills li.sk-htm {
   --per: 90;
 }
-ul.skills li.sk-jav {
-  --per: 70;
+ul.skills li.sk-pub {
+  --per: 10;
 }
 ul.skills li.sk-php {
   --per: 80;
